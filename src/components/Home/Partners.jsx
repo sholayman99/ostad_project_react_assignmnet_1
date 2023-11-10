@@ -7,7 +7,7 @@ import trello from "../../assets/image/trello.png"
 
 const Partners = () => {
     return (
-        <section className=" p-10 mb-10 bg-base-100 flex items-center justify-between">
+        <section className=" p-10 my-10 bg-base-100 flex items-center justify-between">
           <img src={google} />  
           <img src={trello} />  
           <img src={monday} />  

@@ -10,7 +10,12 @@ import Navbar from "./components/Shared/Navbar";
 
 const App = () => {
   return (
-    <div className="max-w-[1440px]">
+    <div className="max-w-[1440px]" style={{
+      background: "linear-gradient(180deg, #D7F5DC 0%, #D7F5DC 100%)",
+      backgroundAttachment: "fixed",
+      backgroundSize: "cover",
+      height: "auto",
+    }} >
   
      <BrowserRouter>
      <Navbar />

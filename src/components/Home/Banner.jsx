@@ -2,17 +2,11 @@ import Rectangle1 from "../../assets/image/Rectangle1.png";
 import Rectangle2 from "../../assets/image/Rectangle2.png";
 import Rectangle3 from "../../assets/image/Rectangle3.png";
 import Rectangle4 from "../../assets/image/Rectangle4.png";
-import Partners from "./Partners";
+
 
 const Banner = () => {
   return (
     <main
-      style={{
-        background: "linear-gradient(180deg, #D7F5DC 0%, #D7F5DC 100%)",
-        backgroundAttachment: "fixed",
-        backgroundSize: "cover",
-        height: "auto",
-      }}
     >
       <section className=" flex items-center pt-32 pb-20 justify-around">
         {/* text----section */}
@@ -41,7 +35,7 @@ const Banner = () => {
         </section>
       </section>
       {/* partners----section */}
-      <Partners />
+     
     </main>
   );
 };
