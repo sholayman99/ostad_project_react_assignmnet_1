@@ -37,7 +37,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar h-[80px] p-[5px] bg-transparent">
+    <div className="navbar h-[80px] p-[5px] bg-transparent fixed top-0">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -69,9 +69,6 @@ const Navbar = () => {
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navList}</ul>
       </div>
-      {/* <div className="navbar-end">
-        <a className="btn">Login</a>
-      </div> */}
     </div>
   );
 };
