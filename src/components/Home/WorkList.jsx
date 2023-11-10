@@ -19,7 +19,7 @@ const WorkList = () => {
   if (loader) {
     return <Loader />;
   }
-  console.log(lists)
+ 
 
   return (
     <main className="bg-base-100">
@@ -31,18 +31,18 @@ const WorkList = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-3 my-5 border-none gap-10">
+        <div className="grid grid-cols-3 my-5 border-none gap-14">
           {lists.map((list, i) => (
-            <div key={i} className="card px-[30px] py-[50px] gap-5 w-[320px]  items-start ">
-             <div className="bg-[#D7F5DC] p-8 ">
+            <div key={i} className="card text-[#000] px-[30px] py-[50px] gap-5 w-[320px]  items-start ">
+             <div className="bg-[#D7F5DC] p-10 rounded-xl ">
              <figure>
-                <img src={list['image']} className="w-8 h-8 bg-[" alt="car!" />
+                <img src={list['image']} className=""  alt="car!" />
               </figure>
              </div>
               <div className="">
-                <h2 className="card-title">{list.title} </h2>
-                <p>{list.content} </p>
-                  <button className="flex items-center mt-10 justify-start gap-1 font-[18px] normal-case
+                <h2 className="card-title my-4">{list['title']} </h2>
+                <p>{list['content']} </p>
+                  <button className="flex items-center mt-8 justify-start gap-1 font-[18px] normal-case
                    px-5 py-4">Learn More <BsArrowRight/></button>       
               </div>
             </div>
