@@ -1,0 +1,46 @@
+{
+    "msg": "success",
+    "data": [
+      {
+        "title": "Build & Launch without problems",
+        "content": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "image": {
+            "url1":"https://s3-alpha-sig.figma.com/img/0bc9/2a04/2006de596ddfb4dfb39297e4c22a73a2?Expires=1700438400&Signature=HqxR1yORmzAHNWrdubrq-U2tE6SgNNLAYD1TjYv1Z5pGQLZy4hQXnQHWg0DPG96OKAqskV2VZP9hobIdrBayKUlU85rI9MEatdz3D~GKHLkhLzCQOZ63KtRQ1zlPEWmTff1uykghdkYC0EVkWJwtbuLMQjV--hACdoooldvj4FG5lzKCchbzrS3PoG7XQvup6j1-wwlsHB4IiZymfLT7fxd12-exmJAmH~baKhem1cetf1apLqeSSQh5Gz3cRfsEX0Y-U~tPx6eHMhTxcdAI7RRoDrgP71Q7ikYiwv3ZXYB0JzSvd9F3r-K0RWugFVEJSm76Mb8o1jPGf3JYb7CfaQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url2":"https://s3-alpha-sig.figma.com/img/d017/fa67/fe7c007d248b40d79d18d58032dd3307?Expires=1700438400&Signature=ES0A2gS4moWWFkdezWEPyoLwFPrUdUXOG8sQphia72qDu7ktOYwL5ulffjC-hMLiYm9EV2NIeGdW~KXT4T35L~nNWIJHy7~gZz8TAJ80OmgQvOvNoP2H1zZgMle-WXnHL4I3W~5pvCyambWEMcxuMX3D~BZaFmQJgG2g4fL3pTjcf5yRRuWk9tC7d8Lu5iUXSUNpnVSkDCof9nMvEGq59NJr6EEBO9xtrsFiMZr4g5YGGE7vb4JTMUnaKqSnDUUSqZhsn8k8y854FAL6gPZzYEFN0ulCLwghfBJn8NudYA5keIGbkF6DjOezm2vVdBvj1jTaigN7EXAptR1Jm25Yog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url3":"https://s3-alpha-sig.figma.com/img/ed5e/7b3b/49679c407c11c30bd60861eabe159c59?Expires=1700438400&Signature=TX-sc4ikZkUP98FrHvd0Sri0Xf4kUX7~bQTVi3XcuKE1erSEq3GAH4ztWYOomQpKJozany8gs0ZMSXZuYAolXM6MuuS~VErj~EGGkrMXGfV~AaS823gh7yMcOmAji6KO2pfKVHT5F5Xr-8~aR18CXbFF6BYu-UHL1JNibJvrqMOmenHTa12QjUXw0EIKDwnngHFIl47DT~FZXJxKWIM4B4jDE4tponBZt2zlQPlsevWKzWPdWmvMz13bDTMOPk2jwkbKdoOMHRTEmnrK572L3Cr2k2ZaIJt3MIr6jdkibyhnECwwF94TUC1I5SDuTJYh49oSo6IRnhQq~mO-paDj~A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url4":"https://s3-alpha-sig.figma.com/img/eecd/1288/8d59ae15910c3afb49ae9ad214553d2d?Expires=1700438400&Signature=VN2jWnPCm2NBh~Eubc-sL85CqURDFPz8-Uag~DFQM8IQYSc7NWdPF-a3JjbOpNVIhxQxRjbCFMIKViwKT1L9SpIDDsm8mFfE2SWYSZXqWOwzltOHLDmjRbi0o21Py6u1oqfuIzmiMgpvCILXM6ewzkcwNV6w5QRQAwpyOPe6GyyrfdcZibFSgb~AHOG4jn54UOKv~CcrHURoD58lDu0CYMKP5cwCop52ZtuuIGhAWnj73NuYfY5TCuuxEz41G6St1~sbXMz5tGuy4UmifTRUelhjAWuOEGWCRmeYWL~GcmbprqWBfmrIAE3Ft1Z3X-ULoqrQ2IKIXCLks5ZyaK4wKg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        }
+      },
+  
+      {
+        "title": "Build & Launch without problems",
+        "content": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "image": {
+            "url1":"https://s3-alpha-sig.figma.com/img/d017/fa67/fe7c007d248b40d79d18d58032dd3307?Expires=1700438400&Signature=ES0A2gS4moWWFkdezWEPyoLwFPrUdUXOG8sQphia72qDu7ktOYwL5ulffjC-hMLiYm9EV2NIeGdW~KXT4T35L~nNWIJHy7~gZz8TAJ80OmgQvOvNoP2H1zZgMle-WXnHL4I3W~5pvCyambWEMcxuMX3D~BZaFmQJgG2g4fL3pTjcf5yRRuWk9tC7d8Lu5iUXSUNpnVSkDCof9nMvEGq59NJr6EEBO9xtrsFiMZr4g5YGGE7vb4JTMUnaKqSnDUUSqZhsn8k8y854FAL6gPZzYEFN0ulCLwghfBJn8NudYA5keIGbkF6DjOezm2vVdBvj1jTaigN7EXAptR1Jm25Yog__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url2":"https://s3-alpha-sig.figma.com/img/22d8/86cd/f972aa147a3ece5c26b27253ae599c8f?Expires=1700438400&Signature=PMyVBlcV8qPBxlxRD883XrNYo~Qyda9tY9RP6TevBlvrkgvsjrfImoEOyPkI3wokhTM4yoVji3C8srqhDJ-wSXHpDvNJFwwjlohCj92ZxJMeErSYKvJuhPKxv6Ha7mS3NZsh9djZ7a310Gu2zdhgFMhMKINrbNu-PJ689k~mLn0zjH63NQtBiivc0fdt0JulkNeOtr93A6Ow-hqGBXhjoLblRAcejUnR7te1YSx6hCAKVnhmHg8Ptu-UqvStIPRUWyurtenIE6~y-g3p6QrfytXRdOlGecNIPqGIVem4vsx6P7m8fpH5RDuU4Cpvy5C5L~AQyECGJ06HDS2IAXnS2g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url3":"https://s3-alpha-sig.figma.com/img/6e65/beb8/9a5560f7edf433315183e0f5cf4d2de2?Expires=1700438400&Signature=HCVjjJesk9vLU5R0nujryzNnDz4A-HZ5LMkBXgTshhRGbXoQLcCwE28d9HzhI1MMC0vHLL5dppqhr5zfcYuur55ygDCm2bbuA371w8uXFpObPtkd0bvi0f2WEAg1GXp7sctCeWVs~fSenGjg5YS0Gqzlo6etF0j~DPtHbH9wEBepxyS-FcICvblVK9z-g7pHO2ahqoEHG3s9pAn9MmF2eiGZvOeREYiuR5PIQ7R5MJaMlHDhJH-jXgV-BjTzJMQtw-bbnuMwgJbVjfI56rIDwQbahNQ1HaNRPglj7mXa4tcWdrpf-2rJC2vjn2JCGhOEIcxbQljGbUKf-F7Fw18ERA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url4":"https://s3-alpha-sig.figma.com/img/34dc/65ff/d2a242f9b4e00c151b43136fc9034ec7?Expires=1700438400&Signature=PP-3aFQXbBSu~7-BEqoqFa0fy0BDHbfVDW6UIX2fEZYqrTQk4CrHhy6CoXr78lG-rGmMi8-KM~1PM5hAEXrY4Fa7uIzp9E3uhx4Hn7iKdJSY~c50uHZa8bhrvEH9dAsVFhVJ9mhc4c8BIUzIfJOmEOY0Sq1H3PmWAXB0Ge--EZuwsokwQ3s6wo7TVlQ7AXICNLBCDISCOd9d152~CFd51ID78u6-9QjcrBwp1s-VKZbiOVAX9XgzlNriSHTk5JYWrRjFBgiJfkytpDA-liVhjGPloRex69ZGkLL8vA-D9ZWIYnWnQeOfb0flUG-JnNN-e~pAxHWlVAJxnJG-KimrBQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        }
+      },
+      {
+        "title": "Build & Launch without problems",
+        "content": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "image": {
+            "url1":"https://s3-alpha-sig.figma.com/img/6918/2e4d/16aaafa09606852ea77c5c43bb2fc97a?Expires=1700438400&Signature=aiu3ukuRxdLLTnx9XE3yd7uyCZxPLWa4CmJR5apgqJoTICpMFY2S1iamlwEcRs9-zp-ppgyyb~xvz8wAdNIvxaXI8XrjcYHT48lllBC4HCqWJx-u3q4P0b-ZGlzKo21NlB~q3gOlkXRizKAr2iMZHD4yUtwwP5Vv9qO5SxpwVxjfkliKKWqCWIFn192DP~A0knPHTfuWzdn-GP~Nxxa~Cc4ILMTiZi51h9Hc9tW0ELYDlkzt6tSSufPc7rtzey8INcxi6za3~QeMMM0-KpgfWSJcQldLDif2pGasuJp0c~1vAswkPtmmXnSh4XAlPqHeJv5yqds6dImGf8d-G4xpzA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url2":"https://s3-alpha-sig.figma.com/img/22e1/771b/13f374f760eec3f2cc2528f9ea20a14e?Expires=1700438400&Signature=oYSFwH5GqRtOfN4CVzXbHM7bkTW05tRVyemB8ejAmuVDXabLwTYXwCjpqoLGANMUGu684oDW394hucael7XVWPSTALx6Ry4hFU1L~kX568ghHUDmtCopnb83nqLe9ZPlypcZPq4M~1eAxcSmk~ebnpYpY1~~vgckdBbdhk2qwJRIWzNz47w4mrUSbKX-2brfrcay21orzxU4mSHvp~wNa6~ARIpulNquulO2FOiuzoSrPf~-lhzu9YukXQQrokuApJcAKaW1py7wtyWVFxI7GwgQ6P9gxm52~6g8x6uOlHGWJzIIgA4xECSbDI8rF3ItVaoaJ9hi2ur0xc1WeyRwfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url3":"https://s3-alpha-sig.figma.com/img/bf4e/c381/3db7a97b3dbae923b895a0e8347d186d?Expires=1700438400&Signature=MK-IvkepiWjDWx8booes9EKfVLrs-Fl2~bsf0pnRGW4fofPf5IIyzQDxzCTmGcr6EH4RtA8kTqYxT~-owvBXrh24qS0KAbd16ydrIG70-EgvLFnp7aob7cTzQNgc6ZDzXIMWGcvgdpTLjTqhy94tZR4JvdUophrtjRGChn2KHJpE3oOcbP4-trAPaLZZINdijRdA5PDd2bmecRVtL~tAeYUTE4oAbHerPRMzMNs6NRgKueU641Wp7eXaEvVHkU5Iupk00mqSm-p8VD2Ve6SYChKyt3ukNZQOwEeI33nzg5KA--rpxD~CWY0kKdUjlb4f~6G4FkqIQ~34mX3n~XoBNw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url4":"https://s3-alpha-sig.figma.com/img/f266/4faa/66bd91a2cb910f99d57d5d2adeda11c3?Expires=1700438400&Signature=haaCMIaPRAsBafriVFfSlnhqbFOaqkLbAbouoi1I3pxHvfzPrnW0IVje~HDnm1mEKcvK80fACc8O~jxnQqswxjRmgGCNvlu2rwcEpxOXstsc9UPNB2qUIUxWSxFB~VH9FVTn7Ktg7XrINLq7QNeIjGm6WDniiPkSaadk-9F9hV6cFGMFQw4WR4LySAytm7qkebXZFrOY1hzzotayfWZ90MgY3uy5WejsS55n94bWlIhRz~7sC2RpeHbnjzGGz5XdF7bHms1hX0-W~CUBUwYeEC6B1VRnkR76zuFvjmeL8hNpOIihrwR35s69ijkgyurohYninlDMsaCZElJ4P0OWuQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        }
+      },
+      {
+        "title": "Build & Launch without problems",
+        "content": "Increase your team’s productivity and save time with a bot that answers and fields customer inquiries",
+        "image": {
+            "url1":"https://s3-alpha-sig.figma.com/img/495d/0faf/3feee9e005a17fb5096cdcc4e17a2fd8?Expires=1700438400&Signature=LzefFvNFWe7~0sZeSsDtSc1rQ1wDryXPqQvxGyUdu4G-JmvBxFpOfsff67dfytYgTXDDivP~y6TCLhH84SGGT2vZV8I6HTA7qT6tesIZWt2LBlBgQJbNt0GFFHO98Dl1I9qgCD7NoxrekxJUvqZWTF4quTzfzgzx5E7-l-8M8lcQ-aT~Ai2Tv0G0waCQ8vS15t5IQVpjpCkiDQzqajuiepAYmurYJKkZOUfi4mOyweHmlbTne-ir~lECOv5f7BQR5A1NPIsJpr7spR2rMotc23tIunLivSyLwi4y~lNuB9bB3VUh5eQW1vbIns4Hkj-OgFE-RuefCtvJLk4OIkgLuQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url2":"https://s3-alpha-sig.figma.com/img/22d8/86cd/f972aa147a3ece5c26b27253ae599c8f?Expires=1700438400&Signature=PMyVBlcV8qPBxlxRD883XrNYo~Qyda9tY9RP6TevBlvrkgvsjrfImoEOyPkI3wokhTM4yoVji3C8srqhDJ-wSXHpDvNJFwwjlohCj92ZxJMeErSYKvJuhPKxv6Ha7mS3NZsh9djZ7a310Gu2zdhgFMhMKINrbNu-PJ689k~mLn0zjH63NQtBiivc0fdt0JulkNeOtr93A6Ow-hqGBXhjoLblRAcejUnR7te1YSx6hCAKVnhmHg8Ptu-UqvStIPRUWyurtenIE6~y-g3p6QrfytXRdOlGecNIPqGIVem4vsx6P7m8fpH5RDuU4Cpvy5C5L~AQyECGJ06HDS2IAXnS2g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url3":"https://s3-alpha-sig.figma.com/img/22e1/771b/13f374f760eec3f2cc2528f9ea20a14e?Expires=1700438400&Signature=oYSFwH5GqRtOfN4CVzXbHM7bkTW05tRVyemB8ejAmuVDXabLwTYXwCjpqoLGANMUGu684oDW394hucael7XVWPSTALx6Ry4hFU1L~kX568ghHUDmtCopnb83nqLe9ZPlypcZPq4M~1eAxcSmk~ebnpYpY1~~vgckdBbdhk2qwJRIWzNz47w4mrUSbKX-2brfrcay21orzxU4mSHvp~wNa6~ARIpulNquulO2FOiuzoSrPf~-lhzu9YukXQQrokuApJcAKaW1py7wtyWVFxI7GwgQ6P9gxm52~6g8x6uOlHGWJzIIgA4xECSbDI8rF3ItVaoaJ9hi2ur0xc1WeyRwfw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "url4":"https://s3-alpha-sig.figma.com/img/495d/0faf/3feee9e005a17fb5096cdcc4e17a2fd8?Expires=1700438400&Signature=LzefFvNFWe7~0sZeSsDtSc1rQ1wDryXPqQvxGyUdu4G-JmvBxFpOfsff67dfytYgTXDDivP~y6TCLhH84SGGT2vZV8I6HTA7qT6tesIZWt2LBlBgQJbNt0GFFHO98Dl1I9qgCD7NoxrekxJUvqZWTF4quTzfzgzx5E7-l-8M8lcQ-aT~Ai2Tv0G0waCQ8vS15t5IQVpjpCkiDQzqajuiepAYmurYJKkZOUfi4mOyweHmlbTne-ir~lECOv5f7BQR5A1NPIsJpr7spR2rMotc23tIunLivSyLwi4y~lNuB9bB3VUh5eQW1vbIns4Hkj-OgFE-RuefCtvJLk4OIkgLuQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        }
+      }
+    ]
+  }

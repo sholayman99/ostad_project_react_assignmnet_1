@@ -37,6 +37,18 @@ export  async function productListRequest() {
  }
 }
 
+export  async function serviceListRequest() {
+ try {
+    let res = await axios.get("../Database/services.json");
+    let result = await res.data ;
+    if(result['msg'] ==="success"){
+        return result['data'];
+    }
+ } catch (error) {
+    console.log(error)
+ }
+}
+
 export async function membersListRequest (){
    try {
       let res = await axios.get("../Database/members.json");
