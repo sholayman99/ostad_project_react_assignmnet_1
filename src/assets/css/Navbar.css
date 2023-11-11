@@ -1,0 +1,7 @@
+.nav-active{
+   background: #fff;
+}
+
+.nav-inactive{
+    background: transparent;
+}

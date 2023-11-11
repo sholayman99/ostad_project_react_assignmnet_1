@@ -1,43 +1,111 @@
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import "../../assets/css/Navbar.css"
 const Navbar = () => {
+  const [navbar, setNavbar] = useState(false);
+  const changeBackground = () => {
+    if (window.scrollY >= 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+  });
+
   const navList = (
     <>
       <li>
-        <NavLink to={"/"}
+        <NavLink
+          to={"/"}
           className={({ isActive }) =>
-            isActive ? " bg-[#20B15A] underline font-semibold  text-base-100 " : "font-semibold"}
-        > Home </NavLink>
+            isActive
+              ? " bg-[#20B15A] underline font-semibold  text-base-100 "
+              : "font-semibold"
+          }
+        >
+          {" "}
+          Home{" "}
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/team"}
+        <NavLink
+          to={"/team"}
           className={({ isActive }) =>
-            isActive ? " bg-[#20B15A] underline font-semibold text-base-100 " : "font-semibold"}
-        > Team </NavLink>
+            isActive
+              ? " bg-[#20B15A] underline font-semibold text-base-100 "
+              : "font-semibold"
+          }
+        >
+          {" "}
+          Team{" "}
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/service"}
+        <NavLink
+          to={"/service"}
           className={({ isActive }) =>
-            isActive ? " bg-[#20B15A] underline font-semibold text-base-100 " : "font-semibold"}
-        > Service </NavLink>
+            isActive
+              ? " bg-[#20B15A] underline font-semibold text-base-100 "
+              : "font-semibold"
+          }
+        >
+          {" "}
+          Service{" "}
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/projects"}
+        <NavLink
+          to={"/projects"}
           className={({ isActive }) =>
-            isActive ? " bg-[#20B15A] underline font-semibold  text-base-100 " : "font-semibold"}
-        > Projects </NavLink>
+            isActive
+              ? " bg-[#20B15A] underline font-semibold  text-base-100 "
+              : "font-semibold"
+          }
+        >
+          {" "}
+          Projects{" "}
+        </NavLink>
       </li>
       <li>
-        <NavLink to={"/testimonials"}
+        <NavLink
+          to={"/testimonials"}
           className={({ isActive }) =>
-            isActive ? " bg-[#20B15A] underline font-semibold  text-base-100 " : "font-semibold"}
-        > Testimonials </NavLink>
+            isActive
+              ? " bg-[#20B15A] underline font-semibold  text-base-100 "
+              : "font-semibold"
+          }
+        >
+          {" "}
+          Testimonials{" "}
+        </NavLink>
+      </li>
+      <li>
+        <Link to={"/"} className=" bg-[#f27540] text-base-100 lg:ml-2 ">
+          {" "}
+          Login{" "}
+        </Link>
+      </li>
+      <li>
+        <Link to={"/"} className=" bg-[#000] text-base-100 lg:ml-2 ">
+          {" "}
+          Signup{" "}
+        </Link>
       </li>
     </>
   );
 
   return (
-    <div className="navbar h-[80px] px-6 py-2 z-50 bg-transparent fixed top-0">
+    <div
+      className={
+        navbar
+          ? "nav-active navbar shadow-lg h-[80px] px-6 py-2 z-50  fixed top-0"
+          : "navbar h-[80px] px-6 py-2 z-50  fixed top-0 nav-inactive"
+      }
+      
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -63,8 +131,12 @@ const Navbar = () => {
             {navList}
           </ul>
         </div>
-        <Link to={"/"} className="btn btn-ghost normal-case text-xl"> <h2 className="font-['Poppins', sans-serif]">Design<span
-         className="text-[#F55F1D]">AGENCY</span></h2> </Link>
+        <Link to={"/"} className="btn btn-ghost normal-case text-xl">
+          {" "}
+          <h2 className="font-['Poppins', sans-serif]">
+            Design<span className="text-[#F55F1D]">AGENCY</span>
+          </h2>{" "}
+        </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navList}</ul>
