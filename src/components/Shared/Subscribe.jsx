@@ -13,10 +13,10 @@ const Subscribe = () => {
         
         <div className="w-full mt-10 border border-1 border-black rounded-lg p-0.5">
              <div className="relative">
-             <input type="text" className="bg-white h-12 w-full px-4 pr-20 rounded-md 
+             <input type="text" placeholder="Enter Your Email Address" className="bg-white h-12 w-full px-4 pr-20 rounded-md 
              focus:outline-none hover:cursor-pointer" name="" />
-             <button className="h-10 rounded bg-[#F55F1D] absolute top-1 text-sm right-0.5 px-3
-              text-white hover:bg-[#f55e1d] ">Subscribe</button> </div>
+             <button className="h-10 rounded-lg bg-[#F55F1D] absolute top-1 text-sm right-0.5 px-3
+              text-white hover:bg-[#f23607] ">Subscribe</button> </div>
             </div>
       </div>
     </section>
