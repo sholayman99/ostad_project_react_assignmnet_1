@@ -60,3 +60,27 @@ export async function membersListRequest (){
       console.log(error)
    }
 }
+
+export async function projectsListRequest (){
+   try {
+      let res = await axios.get("../Database/projects.json");
+      let result = await res.data ;
+    if(result['msg'] ==="success"){
+        return result['data'];
+    }
+   } catch (error) {
+      console.log(error)
+   }
+}
+
+export async function testimonialsListRequest (){
+   try {
+      let res = await axios.get("../Database/testimonials.json");
+      let result = await res.data ;
+    if(result['msg'] ==="success"){
+        return result['data'];
+    }
+   } catch (error) {
+      console.log(error)
+   }
+}

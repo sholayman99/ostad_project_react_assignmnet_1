@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Testimonials from "./pages/Testimonials";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Shared/Navbar";
+import Footer from "./components/Shared/Footer";
 
 
 const App = () => {
@@ -29,7 +30,7 @@ const App = () => {
      <Route path="*" element={<NotFound />}  />
 
      </Routes>
-
+     <Footer />
      </BrowserRouter> 
     </div>
   );
