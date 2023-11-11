@@ -8,10 +8,11 @@ const Banner = () => {
   return (
     <main
     >
-      <section className=" flex items-center pt-32 pb-20 justify-around">
+      <section className=" flex flex-col gap-10 lg:flex-row items-center pt-20 lg:pt-32
+       lg:pb-20 pv-14 justify-around">
         {/* text----section */}
-        <section className="flex text-[#000]  flex-col items-start gap-[50px] w-[550px]">
-          <h1 className="text-[50px] font-bold leading-[65px]">
+        <section className="flex text-[#000] p-4  flex-col items-start lg:gap-[50px] gap-5 lg:w-[550px]">
+          <h1 className="lg:text-[50px] text-[30px] font-bold lg:leading-[65px]">
             Increase Your Customers Loyalty and Satisfaction
           </h1>
           <p>
@@ -23,14 +24,14 @@ const Banner = () => {
           </button>
         </section>
         {/* image---section */}
-        <section className="flex flex-col gap-5">
-          <div className="flex items-center justify-center gap-5">
-            <img src={Rectangle1} />
-            <img src={Rectangle2} />
+        <section className="flex flex-col p-4 gap-5">
+          <div className="flex items-center flex-col  w-full justify-center gap-5">
+            <img className="w-full" src={Rectangle1} />
+            <img className="w-full" src={Rectangle2} />
           </div>
-          <div className="flex items-center justify-center gap-5">
-            <img src={Rectangle3} />
-            <img src={Rectangle4} />
+          <div className="flex flex-col items-center justify-center gap-5">
+            <img className="w-full" src={Rectangle3} />
+            <img className="w-full" src={Rectangle4} />
           </div>
         </section>
       </section>

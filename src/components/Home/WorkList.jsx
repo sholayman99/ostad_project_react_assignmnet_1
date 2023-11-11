@@ -23,15 +23,15 @@ const WorkList = () => {
 
   return (
     <main className="bg-base-100">
-      <section className="px-[105px] pt-[67px] pb-[63px]">
-        <div className="w-[37%] gap-4 flex flex-col items-start">
-          <h3 className="text-[20px] text-[#20B15A] uppercase">Work List</h3>
-          <h2 className="text-[30px] font-semibold text-[#000]">
+      <section className="lg:px-[105px] px-6 lg:pt-[67px] lg:pb-[63px] py-16">
+        <div className="lg:w-[37%] gap-4 flex flex-col items-start">
+          <h3 className="lg:text-[20px] text-[18px] text-[#20B15A] uppercase">Work List</h3>
+          <h2 className="lg:text-[30px] text-[24px] font-semibold text-[#000]">
             We provide the Perfect Solution to your business growth
           </h2>
         </div>
 
-        <div className="grid grid-cols-3 my-5 border-none gap-14">
+        <div className="grid lg:grid-cols-3 grid-cols-1 my-5 border-none gap-14">
           {lists.map((list, i) => (
             <div key={i} className="card text-[#000] px-[30px] py-[50px] gap-5 w-[320px]  items-start ">
              <div className="bg-[#D7F5DC] p-10 rounded-xl ">

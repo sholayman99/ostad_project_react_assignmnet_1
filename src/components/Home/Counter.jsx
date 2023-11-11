@@ -20,9 +20,10 @@ const Counter = () => {
   }
 
   return (
-    <section className="flex items-center text-[#000] justify-center gap-8  bg-base-100">
+    <section className=" grid grid-cols-1 lg:grid-cols-4 lg:px-20 px-6 lg:py-15 py-10
+     text-[#000]  gap-10  bg-base-100">
       {counterLists.map((counter, i) => (
-        <div className="px-25 py-15 flex flex-col items-center  w-72" key={i}>
+        <div className=" flex shadow-xl p-3 flex-col items-center  w-60" key={i}>
           <div className="bg-[#D7F5DC] rounded-lg p-10">
             <img src={counter["image"]} />
           </div>
