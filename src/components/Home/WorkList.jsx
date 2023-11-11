@@ -5,11 +5,11 @@ import {BsArrowRight} from "react-icons/bs"
 
 const WorkList = () => {
   const [lists, setLists] = useState([]);
-  const [loader, setLoader] = useState(false);
+  const [loader, setLoader] = useState(true);
 
   useEffect(() => {
     (async () => {
-      setLoader(true);
+     
       let data = await workListRequest();
       setLists(data);
       setLoader(false);
@@ -32,8 +32,8 @@ const WorkList = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 grid-cols-1 my-5 border-none gap-14">
-          {lists.map((list, i) => (
-            <div key={i} className="card text-[#000] px-[30px] py-[50px] gap-5 w-[320px]  items-start ">
+          {lists.map((list, index) => 
+            <div key={index} className="card text-[#000] px-[30px] py-[50px] gap-5 w-[320px]  items-start ">
              <div className="bg-[#D7F5DC] p-10 rounded-xl ">
              <figure>
                 <img src={list['image']} className=""  alt="car!" />
@@ -46,7 +46,7 @@ const WorkList = () => {
                    px-5 py-4">Learn More <BsArrowRight/></button>       
               </div>
             </div>
-          ))}
+          )}
         </div>
       </section>
     </main>

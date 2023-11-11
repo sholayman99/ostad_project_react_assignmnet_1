@@ -8,8 +8,8 @@ const Banner = () => {
   return (
     <main
     >
-      <section className=" flex flex-col gap-10 lg:flex-row items-center pt-20 lg:pt-32
-       lg:pb-20 pv-14 justify-around">
+      <section className=" flex flex-col lg:px-10 gap-10 lg:flex-row items-center pt-20 lg:pt-32
+       lg:pb-20 pb-14 justify-around">
         {/* text----section */}
         <section className="flex text-[#000] p-4  flex-col items-start lg:gap-[50px] gap-5 lg:w-[550px]">
           <h1 className="lg:text-[50px] text-[30px] font-bold lg:leading-[65px]">
@@ -24,12 +24,12 @@ const Banner = () => {
           </button>
         </section>
         {/* image---section */}
-        <section className="flex flex-col p-4 gap-5">
-          <div className="flex items-center flex-col  w-full justify-center gap-5">
+        <section className="flex  flex-col p-4 gap-5">
+          <div className="flex items-center lg:flex-row flex-col  w-full justify-center gap-5">
             <img className="w-full" src={Rectangle1} />
             <img className="w-full" src={Rectangle2} />
           </div>
-          <div className="flex flex-col items-center justify-center gap-5">
+          <div className="flex lg:flex-row flex-col items-center justify-center gap-5">
             <img className="w-full" src={Rectangle3} />
             <img className="w-full" src={Rectangle4} />
           </div>

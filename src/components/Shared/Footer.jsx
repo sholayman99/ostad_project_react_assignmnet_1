@@ -8,7 +8,7 @@ const Footer = () => {
     const today = new Date().getFullYear();
   return (
     <footer className="bg-[#000] text-base-100  flex flex-col gap-10">
-      <section className=" grid lg:grid-cols-3 grid-cols-1 lg:px-20 lg:py-12 px-5 py-10 gap-10">
+      <section className=" grid lg:grid-cols-3 grid-cols-1 lg:px-20 lg:py-12 px-8 py-10 gap-10">
         <div className="flex flex-col  items-start w-[70%] gap-3">
           <h1 className="lg:text-[40px] text-[24px] font-bold">WEB LOGO</h1>
           <p >
@@ -38,7 +38,7 @@ const Footer = () => {
           <p>Design Agency Head Office.Airport Road United Arab Emirate</p>
         </div>
       </section>
-      <div className="lg:px-20 lg:py-6 px-5 py-5">
+      <div className="lg:px-20 lg:py-6 px-8 py-6">
         <p>Copyright Design Agency {today}</p>
       </div>
     </footer>
