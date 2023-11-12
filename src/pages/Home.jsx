@@ -1,3 +1,4 @@
+import AllProduct from "../components/Home/AllProduct";
 import Banner from "../components/Home/Banner";
 import Counter from "../components/Home/Counter";
 import Partners from "../components/Home/Partners";
@@ -12,6 +13,7 @@ const Home = () => {
         <Partners />
         <WorkList />
         <Counter />
+        <AllProduct />
         <Subscribe />
         
         </>

@@ -3,7 +3,7 @@ import axios from "axios" ;
 
 export  async function workListRequest() {
  try {
-    let res = await axios.get("../public/Database/WorkList.json");
+    let res = await axios.get("/Database/workList.json");
     let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
@@ -15,7 +15,7 @@ export  async function workListRequest() {
 
 export  async function counterListRequest() {
  try {
-    let res = await axios.get("../Database/counter.json");
+    let res = await axios.get("/Database/counter.json");
     let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
@@ -25,21 +25,11 @@ export  async function counterListRequest() {
  }
 }
 
-export  async function productListRequest() {
- try {
-    let res = await axios.get("../Database/product.json");
-    let result = await res.data ;
-    if(result['msg'] ==="success"){
-        return result['data'];
-    }
- } catch (error) {
-    console.log(error)
- }
-}
+
 
 export  async function serviceListRequest() {
  try {
-    let res = await axios.get("../Database/services.json");
+    let res = await axios.get("/Database/services.json");
     let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
@@ -51,7 +41,7 @@ export  async function serviceListRequest() {
 
 export async function membersListRequest (){
    try {
-      let res = await axios.get("../Database/members.json");
+      let res = await axios.get("/Database/members.json");
       let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
@@ -63,7 +53,7 @@ export async function membersListRequest (){
 
 export async function projectsListRequest (){
    try {
-      let res = await axios.get("../Database/projects.json");
+      let res = await axios.get("/Database/projects.json");
       let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
@@ -75,7 +65,7 @@ export async function projectsListRequest (){
 
 export async function testimonialsListRequest (){
    try {
-      let res = await axios.get("../Database/testimonials.json");
+      let res = await axios.get("/Database/testimonials.json");
       let result = await res.data ;
     if(result['msg'] ==="success"){
         return result['data'];
